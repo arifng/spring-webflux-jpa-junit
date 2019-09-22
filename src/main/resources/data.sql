@@ -1,13 +1,18 @@
-DROP TABLE IF EXISTS billionaires;
+ DROP TABLE IF EXISTS persons;
 
-CREATE TABLE billionaires (
-  id INT AUTO_INCREMENT  PRIMARY KEY,
+CREATE TABLE persons (
+  id bigint(20) AUTO_INCREMENT  PRIMARY KEY,
   first_name VARCHAR(250) NOT NULL,
   last_name VARCHAR(250) NOT NULL,
-  career VARCHAR(250) DEFAULT NULL
+  social_security_number VARCHAR(250) DEFAULT NULL,
+  home_phone VARCHAR(250) DEFAULT NULL,
+  mobile VARCHAR(250) DEFAULT NULL,
+  birth_date date DEFAULT NULL,
+  email date DEFAULT NULL
 );
 
-INSERT INTO billionaires (first_name, last_name, career) VALUES
-  ('Aliko', 'Dangote', 'Billionaire Industrialist'),
-  ('Bill', 'Gates', 'Billionaire Tech Entrepreneur'),
-  ('Folrunsho', 'Alakija', 'Billionaire Oil Magnate');
+INSERT INTO persons (first_name, last_name, social_security_number, home_phone, mobile, birth_date, email)
+ VALUES
+  ('Aliko', 'Dangote', '125485659', '', '12565865658', '1992-12-7', 'aliko29@gmail.com'),
+  ('Bill', 'Gates', '125488899', '', '12565861115', '1959-11-17', 'bill06@gmail.com'),
+  ('Folrunsho', 'Alakija', '125485777', '', '14458865658', '1993-1-22', 'alakia7@gmail.com');
