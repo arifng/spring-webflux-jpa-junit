@@ -1,4 +1,4 @@
-package com.arifng.model;
+package com.arifng.springjunit.model;
 
 import lombok.Getter;
 import lombok.Setter;

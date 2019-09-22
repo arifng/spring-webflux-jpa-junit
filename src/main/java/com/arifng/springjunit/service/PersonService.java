@@ -1,6 +1,6 @@
-package com.arifng.service;
+package com.arifng.springjunit.service;
 
-import com.arifng.model.Person;
+import com.arifng.springjunit.model.Person;
 import reactor.core.publisher.Flux;
 import reactor.core.publisher.Mono;
 

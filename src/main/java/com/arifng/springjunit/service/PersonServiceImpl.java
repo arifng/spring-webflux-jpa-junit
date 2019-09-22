@@ -1,7 +1,7 @@
-package com.arifng.service;
+package com.arifng.springjunit.service;
 
-import com.arifng.model.Person;
-import com.arifng.repository.PersonRepository;
+import com.arifng.springjunit.model.Person;
+import com.arifng.springjunit.repository.PersonRepository;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Service;
 import reactor.core.publisher.Flux;
